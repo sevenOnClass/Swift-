@@ -26,6 +26,7 @@ class DictionaryUse: NSObject {
     }
     
     func uniquing() -> Void {
+        print("hello".map{($0, 1)}) // [("h", 1), ("e", 1), ("l", 1), ("l", 1), ("o", 1)]
         let dict =  Dictionary("hello".map{($0, 1)} ,uniquingKeysWith: +)
         print(dict) // ["e": 1, "o": 1, "l": 2, "h": 1]
     }
