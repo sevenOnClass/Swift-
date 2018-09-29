@@ -16,21 +16,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // 1.数组使用
 //        let use = ArrayUse()
 //        use.testPrint()
         
-        let t:AnyObject = "This is String " as NSString
-        let s = Stack()
-        print(s.isEmpty)
-        s.push(object: t)
-        s.push(object: t)
-        print("stack = \(s.stack)")
-        print(s.pop()!)
-        print(s.stack)
-        let tmp = s.pop()
-        print("pop==\(tmp!)")
-        print(s.isEmpty)
+        // 2.模拟栈
+//        let t:AnyObject = "This is String " as NSString
+//        let s = Stack()
+//        print(s.isEmpty)
+//        s.push(object: t)
+//        s.push(object: t)
+//        print("stack = \(s.stack)")
+//        print(s.pop()!)
+//        print(s.stack)
+//        let tmp = s.pop()
+//        print("pop==\(tmp!)")
+//        print(s.isEmpty)
+        
+        // 3.字典使用
+        let d = DictionaryUse()
+        d.testDict()
+        d.uniquing()
         
         return true
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5A63B05215F82B6006DBE33 /* DictionaryUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A63B04215F82B6006DBE33 /* DictionaryUse.swift */; };
 		D5C84A73215F75B900B9421A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C84A72215F75B900B9421A /* AppDelegate.swift */; };
 		D5C84A75215F75B900B9421A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C84A74215F75B900B9421A /* ViewController.swift */; };
 		D5C84A78215F75B900B9421A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C84A76215F75B900B9421A /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5A63B04215F82B6006DBE33 /* DictionaryUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryUse.swift; sourceTree = "<group>"; };
 		D5C84A6F215F75B900B9421A /* Swift-Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Algorithm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C84A72215F75B900B9421A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5C84A74215F75B900B9421A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				D5C84A93215F760A00B9421A /* ArrayUse.swift */,
 				D5C84A95215F786600B9421A /* Stack.swift */,
+				D5A63B04215F82B6006DBE33 /* DictionaryUse.swift */,
 			);
 			path = 01Array;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5C84A96215F786600B9421A /* Stack.swift in Sources */,
+				D5A63B05215F82B6006DBE33 /* DictionaryUse.swift in Sources */,
 				D5C84A75215F75B900B9421A /* ViewController.swift in Sources */,
 				D5C84A94215F760A00B9421A /* ArrayUse.swift in Sources */,
 				D5C84A73215F75B900B9421A /* AppDelegate.swift in Sources */,
