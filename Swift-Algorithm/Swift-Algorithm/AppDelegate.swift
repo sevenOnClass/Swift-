@@ -16,11 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // 1.数组使用
+        /// 1.数组使用
 //        let use = ArrayUse()
 //        use.testPrint()
         
-        // 2.模拟栈
+        /// 2.模拟栈
 //        let t:AnyObject = "This is String " as NSString
 //        let s = Stack()
 //        print(s.isEmpty)
@@ -33,10 +33,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        print("pop==\(tmp!)")
 //        print(s.isEmpty)
         
-        // 3.字典使用
-        let d = DictionaryUse()
-        d.testDict()
-        d.uniquing()
+        /// 3.字典使用
+//        let d = DictionaryUse()
+//        d.testDict()
+//        d.uniquing()
+
+        ///4.2Sum算法
+        let testArr = [1,2,5,7,9]
+        let target = 11
+        let sum2 = TwoSum()
+        print(sum2.twoSum1(nums: testArr, target))
+        
+        print(sum2.twoSum2(nums: testArr, target))
         
         return true
     }
