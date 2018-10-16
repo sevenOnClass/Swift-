@@ -39,13 +39,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        d.uniquing()
 
         ///4.2Sum算法
-        let testArr = [1,2,5,7,9]
-        let target = 11
-        let sum2 = TwoSum()
-        print(sum2.twoSum1(nums: testArr, target))
+//        let testArr = [1,2,5,7,9]
+//        let target = 11
+//        let sum2 = TwoSum()
+//        print(sum2.twoSum1(nums: testArr, target))
+//
+//        print(sum2.twoSum2(nums: testArr, target))
         
-        print(sum2.twoSum2(nums: testArr, target))
+        /// the sky is blue
+//        let chars = "the sky is blue"
+//        print(ReverseString().reverseWords(s: chars)!)
         
+        
+        //==============test================
+        
+//        TwoSumTest().test()
+        // 处理字符串反转
+//        ReverseStringTest().test()
+        // 排序
+//        PartitionList().test()
+        // 检查环
+//        PartitionList().test4()
+        
+        Path().test()
         return true
     }
 

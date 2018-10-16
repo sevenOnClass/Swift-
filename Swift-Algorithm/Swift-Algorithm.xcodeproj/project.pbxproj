@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D5A63B05215F82B6006DBE33 /* DictionaryUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A63B04215F82B6006DBE33 /* DictionaryUse.swift */; };
 		D5A63B07215F8C6F006DBE33 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A63B06215F8C6F006DBE33 /* TwoSum.swift */; };
+		D5A63B0921606398006DBE33 /* StringUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A63B0821606398006DBE33 /* StringUse.swift */; };
 		D5C84A73215F75B900B9421A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C84A72215F75B900B9421A /* AppDelegate.swift */; };
 		D5C84A75215F75B900B9421A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C84A74215F75B900B9421A /* ViewController.swift */; };
 		D5C84A78215F75B900B9421A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C84A76215F75B900B9421A /* Main.storyboard */; };
@@ -17,6 +18,15 @@
 		D5C84A88215F75BC00B9421A /* Swift_AlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C84A87215F75BC00B9421A /* Swift_AlgorithmTests.swift */; };
 		D5C84A94215F760A00B9421A /* ArrayUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C84A93215F760A00B9421A /* ArrayUse.swift */; };
 		D5C84A96215F786600B9421A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C84A95215F786600B9421A /* Stack.swift */; };
+		D5E24C1B2174A5BE009A3C20 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E24C1A2174A5BE009A3C20 /* ReverseString.swift */; };
+		D5E24C2321758744009A3C20 /* ArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E24C2221758744009A3C20 /* ArrayTest.swift */; };
+		D5E24C2521758898009A3C20 /* StackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E24C2421758898009A3C20 /* StackTest.swift */; };
+		D5E24C2721758AB3009A3C20 /* TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E24C2621758AB3009A3C20 /* TwoSumTest.swift */; };
+		D5E24C2B21758F07009A3C20 /* ReverseStringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E24C2A21758F07009A3C20 /* ReverseStringTest.swift */; };
+		D5E24C302175AE99009A3C20 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E24C2F2175AE99009A3C20 /* List.swift */; };
+		D5E24C322175B332009A3C20 /* PartitionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E24C312175B331009A3C20 /* PartitionList.swift */; };
+		D5E24C352175EB95009A3C20 /* StackI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E24C342175EB95009A3C20 /* StackI.swift */; };
+		D5E24C372175FA04009A3C20 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E24C362175FA04009A3C20 /* Path.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +42,7 @@
 /* Begin PBXFileReference section */
 		D5A63B04215F82B6006DBE33 /* DictionaryUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryUse.swift; sourceTree = "<group>"; };
 		D5A63B06215F8C6F006DBE33 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		D5A63B0821606398006DBE33 /* StringUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUse.swift; sourceTree = "<group>"; };
 		D5C84A6F215F75B900B9421A /* Swift-Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Algorithm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C84A72215F75B900B9421A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5C84A74215F75B900B9421A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +55,15 @@
 		D5C84A89215F75BC00B9421A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5C84A93215F760A00B9421A /* ArrayUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayUse.swift; sourceTree = "<group>"; };
 		D5C84A95215F786600B9421A /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		D5E24C1A2174A5BE009A3C20 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
+		D5E24C2221758744009A3C20 /* ArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTest.swift; sourceTree = "<group>"; };
+		D5E24C2421758898009A3C20 /* StackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTest.swift; sourceTree = "<group>"; };
+		D5E24C2621758AB3009A3C20 /* TwoSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTest.swift; sourceTree = "<group>"; };
+		D5E24C2A21758F07009A3C20 /* ReverseStringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringTest.swift; sourceTree = "<group>"; };
+		D5E24C2F2175AE99009A3C20 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		D5E24C312175B331009A3C20 /* PartitionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionList.swift; sourceTree = "<group>"; };
+		D5E24C342175EB95009A3C20 /* StackI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackI.swift; sourceTree = "<group>"; };
+		D5E24C362175FA04009A3C20 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +105,8 @@
 		D5C84A71215F75B900B9421A /* Swift-Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				D5C84A92215F75E900B9421A /* 01Array */,
+				D5E24C1E21758707009A3C20 /* Normal */,
+				D5E24C1D217586FD009A3C20 /* Test */,
 				D5C84A72215F75B900B9421A /* AppDelegate.swift */,
 				D5C84A74215F75B900B9421A /* ViewController.swift */,
 				D5C84A76215F75B900B9421A /* Main.storyboard */,
@@ -112,8 +133,81 @@
 				D5C84A95215F786600B9421A /* Stack.swift */,
 				D5A63B04215F82B6006DBE33 /* DictionaryUse.swift */,
 				D5A63B06215F8C6F006DBE33 /* TwoSum.swift */,
+				D5A63B0821606398006DBE33 /* StringUse.swift */,
 			);
 			path = 01Array;
+			sourceTree = "<group>";
+		};
+		D5E24C192174A597009A3C20 /* 02String */ = {
+			isa = PBXGroup;
+			children = (
+				D5E24C1A2174A5BE009A3C20 /* ReverseString.swift */,
+			);
+			path = 02String;
+			sourceTree = "<group>";
+		};
+		D5E24C1D217586FD009A3C20 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				D5E24C2821758EE6009A3C20 /* 02String */,
+				D5E24C1F21758716009A3C20 /* 01Array */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		D5E24C1E21758707009A3C20 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				D5E24C2C2175AE57009A3C20 /* 基础算法 */,
+			);
+			path = Normal;
+			sourceTree = "<group>";
+		};
+		D5E24C1F21758716009A3C20 /* 01Array */ = {
+			isa = PBXGroup;
+			children = (
+				D5E24C2221758744009A3C20 /* ArrayTest.swift */,
+				D5E24C2421758898009A3C20 /* StackTest.swift */,
+				D5E24C2621758AB3009A3C20 /* TwoSumTest.swift */,
+			);
+			path = 01Array;
+			sourceTree = "<group>";
+		};
+		D5E24C2821758EE6009A3C20 /* 02String */ = {
+			isa = PBXGroup;
+			children = (
+				D5E24C2A21758F07009A3C20 /* ReverseStringTest.swift */,
+			);
+			path = 02String;
+			sourceTree = "<group>";
+		};
+		D5E24C2C2175AE57009A3C20 /* 基础算法 */ = {
+			isa = PBXGroup;
+			children = (
+				D5E24C332175EB47009A3C20 /* 04栈和队列 */,
+				D5E24C2D2175AE7B009A3C20 /* 03链表 */,
+				D5E24C192174A597009A3C20 /* 02String */,
+				D5C84A92215F75E900B9421A /* 01Array */,
+			);
+			path = "基础算法";
+			sourceTree = "<group>";
+		};
+		D5E24C2D2175AE7B009A3C20 /* 03链表 */ = {
+			isa = PBXGroup;
+			children = (
+				D5E24C2F2175AE99009A3C20 /* List.swift */,
+				D5E24C312175B331009A3C20 /* PartitionList.swift */,
+			);
+			path = "03链表";
+			sourceTree = "<group>";
+		};
+		D5E24C332175EB47009A3C20 /* 04栈和队列 */ = {
+			isa = PBXGroup;
+			children = (
+				D5E24C342175EB95009A3C20 /* StackI.swift */,
+				D5E24C362175FA04009A3C20 /* Path.swift */,
+			);
+			path = "04栈和队列";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,11 +311,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E24C352175EB95009A3C20 /* StackI.swift in Sources */,
+				D5E24C2721758AB3009A3C20 /* TwoSumTest.swift in Sources */,
+				D5E24C372175FA04009A3C20 /* Path.swift in Sources */,
 				D5C84A96215F786600B9421A /* Stack.swift in Sources */,
+				D5E24C1B2174A5BE009A3C20 /* ReverseString.swift in Sources */,
+				D5E24C2321758744009A3C20 /* ArrayTest.swift in Sources */,
+				D5E24C302175AE99009A3C20 /* List.swift in Sources */,
 				D5A63B05215F82B6006DBE33 /* DictionaryUse.swift in Sources */,
+				D5E24C2521758898009A3C20 /* StackTest.swift in Sources */,
 				D5A63B07215F8C6F006DBE33 /* TwoSum.swift in Sources */,
 				D5C84A75215F75B900B9421A /* ViewController.swift in Sources */,
 				D5C84A94215F760A00B9421A /* ArrayUse.swift in Sources */,
+				D5E24C2B21758F07009A3C20 /* ReverseStringTest.swift in Sources */,
+				D5A63B0921606398006DBE33 /* StringUse.swift in Sources */,
+				D5E24C322175B332009A3C20 /* PartitionList.swift in Sources */,
 				D5C84A73215F75B900B9421A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
